@@ -7,6 +7,73 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Heading level 1</h1>
+    <p>This is for the group project</p>
+    <h2>Heading level 2</h2>
+    <form action="">
+        <label for="Purpose of contact">
+            Purpos of contact     
+        </label>
+        <select> name='Choose'>
+            <option value=""selected>Please Select</option>
+            <option value="Business">Business</option>
+            <option value="Personal">Personal</option> 
+        </select>
+        <fieldset><br>
+            <legend>About You</legend>
+            <p>Firstname:<br>
+               <input type='text' name='firstname' /></p>
+            <p>Lastname:<br>
+               <input type='text' name='lastname' /></p>
+          </fieldset>
+          <br>
+          <label for="email">
+              Enter your Email
+
+          </label>
+          <input type="email" id="email" required   >
+          <br>
+          <label for="Number-input">
+              Enter your number
+          </label>
+          <input type="tel" id="" maxlength="50" id="Number-input" required>
+          <br>
+          <label for="Prefer-contact-method">
+              Choose your prefer contact method
+          </label>
+          <br>
+          <input type="radio" name="Prefer-contact-method" value="Email"/>Email,
+          <input type="radio" name="Prefer-contact-method" value="Phone"/>Phone.
+          <br>
+          <label for="Contact-day">
+              Choose your contact day
+          </label>
+          <br>
+          <input type="checkbox" name="seeks[]" value="Monday"/>Monday 
+          <input type="checkbox" name="seeks[]" value="Tuesday"/>Tuesday
+          <input type="checkbox" name="seeks[]" value="Wednesday"/>Wednesday
+          <input type="checkbox" name="seeks[]" value="Thursday"/>Thursday
+          <input type="checkbox" name="seeks[]" value="Friday"/>Friday
+          <input type="checkbox" name="seeks[]" value="Saturday"/>Saturday
+          <input type="checkbox" name="seeks[]" value="Sunday"/>Sunday
+          <br>
+          <label for="File-upload">
+              Upload File
+          </label>   
+          <br>
+          <input type='file' name='assignment' />
+          <br>
+          <textarea cols='80' rows='9'>
+            
+          </textarea>
+          <br>
+            <input type="submit" name="" value="Summit the form">
+            <br>
+            <input type='reset' name='not-needed' value='Reset, ie erase all your input!' />
+            </form>
+
+
+    </body>
     
 </body>
 </html>
